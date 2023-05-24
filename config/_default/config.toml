@@ -5,7 +5,7 @@ baseurl = "https://blog.jpconstantineau.com/"  # Include trailing slash
 # copyright = "Copyright © 2023, Pierre Constantineau"
 canonifyurls = true
 paginate = 10
-theme = "hugo-clarity"
+theme = "hugo-starter-theme"
 disqusShortname = ""
 
 DefaultContentLanguage = "en"

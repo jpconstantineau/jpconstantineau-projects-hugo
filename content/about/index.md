@@ -1,7 +1,7 @@
 ---
 title: "Pierre Constantineau, PhD"
 date: 2023-04-06
-summary: "Himalayan red panda"
+summary: "Software Product Manager | Software Development Manager | Keyboard Hardware/Firmware | Arduino | CircuitPython | Content Creator on YouTube | Outdoor Enthusiast"
 layout: about
 ---
 
@@ -10,4 +10,4 @@ I live in trees and feed mainly on bamboo, but I also eat eggs, birds, and insec
 
 I joined the IUCN Endangered species red list in 2008 as a result of a constant population decline caused by habitat loss, poaching and inbreed depression.
 
-For more information, you can take a look at my [Wikipedia page](https://en.wikipedia.org/wiki/Red_panda_)
+For more information, you can take a look at my [links](https://pierre.jpconstantineau.com/)

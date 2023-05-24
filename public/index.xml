@@ -1,10 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio</title>
-    <link>/</link>
-    <description>Recent content on Portfolio</description>
+    <title>Pierre Constantineau</title>
+    <link>https://blog.jpconstantineau.com/</link>
+    <description>Recent content on Pierre Constantineau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jpconstantineau.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amateur Radio Web Pages</title>
+      <link>https://blog.jpconstantineau.com/projects/ve7jpc/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/projects/ve7jpc/</guid>
+      <description>My first web pages: VE7JPC Amateur Radio Links - circa 1998</description>
+    </item>
+    
+    <item>
+      <title>Blog on Azure Static Web Apps</title>
+      <link>https://blog.jpconstantineau.com/projects/azure/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/projects/azure/</guid>
+      <description>This blog is hosted on Azure Static Web App for Free! Check out how!</description>
+    </item>
+    
+    <item>
+      <title>Pierre Constantineau, PhD</title>
+      <link>https://blog.jpconstantineau.com/about/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/about/</guid>
+      <description>Software Product Manager | Software Development Manager | Keyboard Hardware/Firmware | Arduino | CircuitPython | Content Creator on YouTube | Outdoor Enthusiast</description>
+    </item>
+    
+    <item>
+      <title>The Phoenix Project</title>
+      <link>https://blog.jpconstantineau.com/books/phoenix/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/books/phoenix/</guid>
+      <description>A Novel about DevOps and the Philosophy behind it.</description>
+    </item>
+    
+    <item>
+      <title>The Unicorn Project</title>
+      <link>https://blog.jpconstantineau.com/books/unicorn/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/books/unicorn/</guid>
+      <description>A Novel about Digital Transformation and the Philosophy behind it.</description>
+    </item>
+    
   </channel>
 </rss>

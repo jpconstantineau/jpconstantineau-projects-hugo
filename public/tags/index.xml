@@ -1,10 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Portfolio</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Portfolio</description>
+    <title>Tags on Pierre Constantineau</title>
+    <link>https://blog.jpconstantineau.com/tags/</link>
+    <description>Recent content in Tags on Pierre Constantineau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jpconstantineau.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amateur Radio</title>
+      <link>https://blog.jpconstantineau.com/tags/amateur-radio/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/amateur-radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>https://blog.jpconstantineau.com/tags/azure/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>https://blog.jpconstantineau.com/tags/book/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding Best Practices</title>
+      <link>https://blog.jpconstantineau.com/tags/coding-best-practices/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/coding-best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://blog.jpconstantineau.com/tags/devops/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Transformation</title>
+      <link>https://blog.jpconstantineau.com/tags/digital-transformation/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/digital-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronics</title>
+      <link>https://blog.jpconstantineau.com/tags/electronics/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://blog.jpconstantineau.com/tags/github/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Pages</title>
+      <link>https://blog.jpconstantineau.com/tags/web-pages/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpconstantineau.com/tags/web-pages/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
