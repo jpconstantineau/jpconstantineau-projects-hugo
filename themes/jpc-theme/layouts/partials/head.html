@@ -1,8 +1,10 @@
     <meta charset="utf-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>  
+    <title>{{ block "title" . }} {{ .Page.Title }} | {{ .Site.Title }} {{ end }}</title>  
     <link rel="stylesheet" href="{{ "css/layout.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/colors.css" | relURL }}" />
+    {{ if .Site.Params.debugmode }}
     <link rel="stylesheet" href="{{ "css/debug.css" | relURL }}" />
+    {{ end }}

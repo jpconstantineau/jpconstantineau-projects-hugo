@@ -1,5 +1,6 @@
 ---
 author: "Pierre Constantineau"
 date: 2023-04-06
+title: "Resume"
 ---
 hello resume

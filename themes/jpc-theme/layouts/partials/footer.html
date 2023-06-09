@@ -2,3 +2,6 @@
     <small>&copy; {{ now.Format "2006" }} {{with .Site.Copyright}}{{.}} {{end}}
     </small>
     {{ template "_internal/google_analytics.html" . }}
+    {{ if .Site.Params.debugmode }}
+    <div > This Site runs in Debug Mode</div>
+    {{ end }}	
