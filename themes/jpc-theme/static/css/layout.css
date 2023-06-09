@@ -5,17 +5,17 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items:stretch;
 }
 
-.header-left {
+.header-left, .footer-left {
     float: left;
 }
 
-.header-right {
+.header-right, .footer-right{
     float: right;
 }
 
@@ -28,5 +28,17 @@ header {
     grid-auto-flow: column;
     grid-gap: 1.5rem ;
     justify-content: flex-end;
-    margin-right: 0.75rem;
+    margin: 0 0.25rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-right  nav > ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.5rem ;
+    justify-content: flex-end;
+    margin: 0 0.25rem 0 0;
+    padding: 0;
+    list-style: none;
 }
