@@ -2,3 +2,5 @@ baseurl: "http://localhost:1313/"  # Include trailing slash
 googleAnalytics: "G-BY8H0LDT2X"
 buildDrafts: true
 enableGitInfo: true
+buildFuture: true
+buildExpired: true

@@ -20,7 +20,7 @@ main:
     weight: -106
 
 footer:
-  - name: "Contact"
+  - name: "Contacts"
     url: "https://pierre.jpconstantineau.com/"
     weight: 10
   - name: "Privacy Policy"

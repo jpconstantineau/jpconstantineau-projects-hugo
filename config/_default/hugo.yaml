@@ -1,6 +1,6 @@
 canonifyurls: false
 paginate: 10
-theme: "jpc-staging"
+theme: "jpc-dev"
 
 copyright: "Pierre Constantineau"
 

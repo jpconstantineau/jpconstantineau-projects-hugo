@@ -2,3 +2,5 @@ baseurl: "https://blog.jpconstantineau.com/"  # Include trailing slash
 googleAnalytics: "G-FF88MMG683"
 buildDrafts: false
 enableGitInfo: false
+buildFuture: false
+buildExpired: false

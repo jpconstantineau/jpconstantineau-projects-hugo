@@ -13,18 +13,17 @@ header {
 
 .header-left {
     float: left;
-
 }
 
 .header-right {
     float: right;
 }
 
-.header-left * {
+.header-left > * {
     margin-left: 0.5rem;
 }
 
-  nav ul {
+.header-right  nav > ul {
     display: grid;
     grid-auto-flow: column;
     grid-gap: 1.5rem ;

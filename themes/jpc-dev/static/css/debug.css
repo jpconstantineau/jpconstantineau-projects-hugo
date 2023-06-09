@@ -15,7 +15,7 @@ footer {
     border: 3px solid blue;
   }
 
-  .header-left * {
+  .header-left > * {
     border: 3px solid red;
   }
 
@@ -24,6 +24,6 @@ footer {
     border: 3px solid blueviolet;   
 }
 
-  nav ul {
+  nav > ul {
     border: 3px solid cyan;
   }
