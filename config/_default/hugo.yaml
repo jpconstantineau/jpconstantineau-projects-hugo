@@ -1,0 +1,11 @@
+canonifyurls: false
+paginate: 10
+theme: "jpc-staging"
+
+copyright: "Pierre Constantineau"
+
+taxonomies:
+    category: "categories"
+    tag: "tags"
+    series: "series"
+

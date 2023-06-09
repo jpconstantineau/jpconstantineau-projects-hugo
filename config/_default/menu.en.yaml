@@ -1,0 +1,28 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: -119
+
+  - name: "Resume"
+    url: "/resume/"
+    weight: -118
+
+  - name: "Projects"
+    url: "/projects/"
+    weight: -109
+
+  - name: "From My Library"
+    url: "/books/"
+    weight: -108
+
+  - name: "About"
+    url: "/about/"
+    weight: -106
+
+footer:
+  - name: "Contact"
+    url: "https://pierre.jpconstantineau.com/"
+    weight: 10
+  - name: "Privacy Policy"
+    url: "https://www.freeprivacypolicy.com/live/61bcb835-a233-46b1-84c5-95231842431c"
+    weight: 20
