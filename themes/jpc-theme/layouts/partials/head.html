@@ -2,11 +2,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ hugo.Generator }}
     <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/1149816?v=3">
      <title>{{ block "title" . }} {{ if .IsHome }} Home {{ else }} {{ .Page.Title }} {{ end }} | {{ .Site.Title }} {{ end }}</title>  
-    <link rel="stylesheet" href="{{ "css/layout.css" | relURL }}" />
+     <link rel="stylesheet" href="{{ "css/variables.css" | relURL }}" />
+     <link rel="stylesheet" href="{{ "css/layout.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "css/colors.css" | relURL }}" />
     {{ if .Site.Params.debugmode }}
     <link rel="stylesheet" href="{{ "css/debug.css" | relURL }}" />
     {{ end }}

@@ -1,18 +1,30 @@
+html {
+    color-scheme: dark light;
+}
+
 body {
     min-height: 100vh;
-    min-height: 100Dvh;
+    min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    margin:0;
 }
 
 header, footer {
     display: flex;
     justify-content: space-between;
     align-items:stretch;
+    background-color: var(--primary-color-500);
+    color:var(--primary-color-100);
+    padding: 0 0.5rem ;    
 }
 
 .header-left, .footer-left {
     float: left;
+}
+
+.app-title  {
+    padding-block: 0.5rem;
 }
 
 .header-right, .footer-right{
@@ -33,6 +45,19 @@ header, footer {
     list-style: none;
 }
 
+.header-right  nav > ul > li{
+    padding-block: 0.5rem;
+}
+header  a, footer  a{
+    text-decoration: none;
+    color: var(--primary-color-100);
+    font-weight: bold;
+}
+
+header  a:hover, footer  a:hover{
+    color: var(--primary-color-900);
+}
+
 .footer-right  nav > ul {
     display: grid;
     grid-auto-flow: column;
@@ -41,4 +66,76 @@ header, footer {
     margin: 0 0.25rem 0 0;
     padding: 0;
     list-style: none;
+}
+
+main {
+    background-color: var(--primary-color-200);
+    color: var(--primary-color-900)
+}
+
+
+.resume-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas:
+    "article article aside";}
+
+aside {
+    grid-area: aside;
+}
+
+article {
+    grid-area: article;
+}
+
+.resume-section {
+    display: grid;
+    grid-gap: 1rem;
+    grid: auto-flow dense ;
+}
+
+.resume-section  :nth-child(1) {   
+ 
+ font-size: 2rem;
+}
+
+.book{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "title title ........"
+    "content content image"
+    "content content tags"
+    "content content prev"
+    "content content next"
+    "content content rel";
+}
+
+.book-title{
+    grid-area: title;
+}
+
+.book-content{
+    grid-area: content;
+}
+.book-tags{
+    grid-area: tags;
+    width: 19.1489%;
+}
+.book-prev{
+    grid-area: prev;
+    width: 19.1489%;
+}
+.book-next{
+    grid-area: next;
+    width: 19.1489%;
+}
+.book-rel{
+    grid-area: rel;
+    width: 19.1489%;
+}
+.book-image{
+    grid-area: image;
+    width: 19.1489%;
 }

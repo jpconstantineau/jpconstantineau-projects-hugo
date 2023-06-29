@@ -7,5 +7,6 @@ copyright: "Pierre Constantineau"
 taxonomies:
     category: "categories"
     tag: "tags"
-    series: "series"
+    skill: "skills"
+    industry: "industries"
 

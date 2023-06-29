@@ -1,0 +1,36 @@
+:root {
+    --red: #f00;
+    --green: #0f0;
+    --blue: #00f;
+    --primary-color-900: hsl(195deg,68%,90%); 
+    --primary-color-800: hsl(195deg,68%,80%);
+    --primary-color-700: hsl(195deg,68%,70%);
+    --primary-color-600: hsl(195deg,68%,60%);
+    --primary-color-500: hsl(195deg,68%,50%); /*Moraine Lake Blue*/
+    --primary-color-400: hsl(195deg,68%,40%); 
+    --primary-color-300: hsl(195deg,68%,30%); 
+    --primary-color-200: hsl(195deg,68%,20%); 
+    --primary-color-100: hsl(195deg,68%,10%); 
+    
+    --secondary-color-900: hsl(85deg,55%,90%);
+    --secondary-color-800: hsl(85deg,55%,80%);
+    --secondary-color-700: hsl(85deg,55%,70%);
+    --secondary-color-600: hsl(85deg,55%,60%);
+    --secondary-color-500: hsl(85deg,55%,50%); /*Grassi Lake Green*/
+    --secondary-color-400: hsl(85deg,55%,40%);
+    --secondary-color-300: hsl(85deg,55%,30%);
+    --secondary-color-200: hsl(85deg,55%,20%);
+    --secondary-color-200: hsl(85deg,55%,10%);
+
+    --ternary-color-900: hsl(46deg,100%,90%);
+    --ternary-color-800: hsl(46deg,100%,80%);
+    --ternary-color-700: hsl(46deg,100%,70%);
+    --ternary-color-600: hsl(46deg,100%,60%);
+    --ternary-color-500: hsl(46deg,100%,50%); /*Fire Yellow*/
+    --ternary-color-400: hsl(46deg,100%,40%);
+    --ternary-color-300: hsl(46deg,100%,30%);
+    --ternary-color-200: hsl(46deg,100%,20%);
+    --ternary-color-100: hsl(46deg,100%,10%);
+
+}
+

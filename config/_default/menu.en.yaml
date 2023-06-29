@@ -3,10 +3,6 @@ main:
     url: "/"
     weight: -119
 
-  - name: "Resume"
-    url: "/resume/"
-    weight: -118
-
   - name: "Projects"
     url: "/projects/"
     weight: -109

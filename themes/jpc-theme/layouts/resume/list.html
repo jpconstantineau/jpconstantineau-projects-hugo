@@ -1,0 +1,90 @@
+{{define "main"}}
+<div class="resume-main">
+	<article>
+	<div class="resume-section">
+		<div> {{ .Title }} </div>
+	  <!-- "{{ .Content }}" pulls from the markdown content of the corresponding _index.md -->
+	  {{ .Content }}
+
+	</div>
+	<div class="resume-section">
+
+	  <div>
+		Positions
+	    </div>
+	    
+			{{ range where .Site.RegularPages.ByWeight.Reverse "Params.type" "job"}}
+			<div>
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+				<div>{{ .Params.company }}</div><div> {{ .Params.year }} </div>
+			</div>
+			{{ end }}
+		
+	</div>
+	<div class="resume-section">
+		<div>
+			Courses and Certifications
+		</div>
+	
+		{{ range where .Site.RegularPages.ByWeight.Reverse "Params.type" "course"}}
+		<div>
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
+			<div>{{ .Params.company }}</div><div> {{ .Params.year }} </div>
+		</div>
+		{{ end }}
+	
+	</div>
+
+	<div class="resume-section">
+	<div>
+		Education
+	</div>
+	<ul>
+		{{ range where .Site.RegularPages.ByWeight.Reverse "Params.type" "degree"}}
+		<li>
+			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+			{{ .Params.company }} {{ .Params.year }}
+		</li>
+		{{ end }}
+	</ul>
+</div>
+
+	</article>
+	
+	<aside>
+		Skills
+		<ul>
+			{{ range .Site.Taxonomies.skills }}
+					<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+			{{ end }}
+		</ul>
+		
+		Industries Served:
+		<ul>
+			{{ range .Site.Taxonomies.industries }}
+					<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+			{{ end }}
+		</ul>
+		
+	</aside>>
+	
+</div>
+
+<!--pagination-->
+{{template "_internal/pagination.html" .}}
+
+{{ if .Page.Store.Get "hasMermaid" }}
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{end}}
+
+
+{{ if .Site.Params.debugmode }}
+resume LIST
+
+{{ end }}
+
+
+{{end}}

@@ -3,6 +3,7 @@ title: "Blog on Azure Static Web Apps"
 date: 2023-04-06
 summary: "This blog is hosted on Azure Static Web App for Free! Check out how!"
 tags: ["Web Pages", "Github"]
+skills: ["html", "markdown", "Git"]
 ---
 
 Based on the great [video](https://www.youtube.com/watch?v=lqvYAI74w64) of Scott Hanselman on Youtube, this blog uses [Hugo Static Site Generator](https://gohugo.io/), [Github actions](https://github.com/features/actions) and [Azure Static Web App](https://azure.microsoft.com/en-ca/products/app-service/static/) to make the process of writing this blog and making it available.

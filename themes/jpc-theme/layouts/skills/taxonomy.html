@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+
+  <div>
+   <h1>{{ .Title }}</h1>
+   <p>{{ .Params.description }} </p>
+
+   <p>{{ .Content }} </p>
+
+
+  </div>
+
+  <a href="{{ .Params.wikipedia }}">More...</a>
+
+
+<ul>
+  <!-- ranges through content in ascending order according to the "linktitle" field in front matter. If a "linktitle" field is not set, the range will start with content that only has a "title" field and use that value for .LinkTitle -->
+  <p>Positions that used this skill:</p>
+  {{ range where .Pages.ByLinkTitle "Params.type" "job" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .LinkTitle }}: {{ .Params.year }} - {{ .Params.position }} </a>
+          
+      </li>
+  {{ end }}
+</ul>
+
+  {{ if .Site.Params.debugmode }}
+  <div class="debug-footer" >
+    <hr></hr>
+    SKILL TAXONOMY 
+    <hr></hr>
+    {{ printf "%#v" $.Site }}
+    <hr></hr>
+    {{ printf "%#v" .Pages }}
+    <hr></hr>
+    {{ printf "%#v" .Params }}
+  </div>  
+  {{ end }}
+  
+  {{ end }}
+

@@ -1,7 +1,7 @@
 
 ---
 title: "Mermaid.js"
-date: 2023-04-06
+date: 2023-06-06
 summary: "Easy embedded graphs"
 
 tags: ["Graphs", "Tools"]

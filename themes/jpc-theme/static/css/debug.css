@@ -27,3 +27,11 @@ footer {
   nav > ul {
     border: 3px solid cyan;
   }
+
+.debug-footer {
+  font-family: "Lucida Console", Monaco, monospace !important;
+  font-size: 75%;
+  color: black;
+  background-color: limegreen;
+
+}

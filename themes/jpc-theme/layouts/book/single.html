@@ -1,0 +1,45 @@
+{{define "main"}}
+{{ if .Site.Params.debugmode }}
+Book SINGLE
+{{ end }}
+
+<div class="book">
+    <h2 class="book-title">{{.Title}}</h2>
+    <div class="book-content">
+        {{.Content}}
+    </div>
+    <div class="book-image">
+        <img src="{{ .Params.featureImage }}" alt="{{.Title}}" >
+    </div>
+    <div class="book-tags">
+        Tags
+        <ul>
+            {{range (.GetTerms "tags")}}
+            <li><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></li>
+            {{end}}
+        </ul>
+    </div>
+    <div class="book-prev">{{with .PrevInSection}}Prev <a href="{{.RelPermalink}}"><img src="{{ .Params.featureImage }}" alt="{{.Title}}" ></a>{{end}}</div>
+    <div class="book-next">{{with .NextInSection}}Next <a href="{{.RelPermalink}}"><img src="{{ .Params.featureImage }}" alt="{{.Title}}" ></a>{{end}}</div>
+    <div class="book-rel">
+        {{$related := .Site.RegularPages.Related . | first 5}}
+        {{with $related}}
+            <h3>See Also</h3>
+            <ul>
+                {{range .}}
+                <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+                {{end}}
+            </ul>
+        {{end}}        
+    </div>
+    </div>            
+</div>
+
+	{{ if .Page.Store.Get "hasMermaid" }}
+	<script type="module">
+		import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+		mermaid.initialize({ startOnLoad: true });
+	</script>
+	{{end}}
+{{end}}
+

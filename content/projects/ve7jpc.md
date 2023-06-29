@@ -1,12 +1,13 @@
 ---
 title: "Amateur Radio Web Pages"
-date: 2023-04-06
+date: 1998-06-06
 summary: "My first web pages: VE7JPC Amateur Radio Links - circa 1998"
 tags: ["Web Pages", "Electronics", "Amateur Radio"]
+skills: ["html"]
 
 ---
 
-All the way back in 2018, I created a set of webpages that gathered links to homebrew amateur radio builds and homebrew test instrumentation. 
+All the way back in 1998, I created a set of webpages that gathered links to homebrew amateur radio builds and homebrew test instrumentation. 
 They are still hosted on qsl.net [here](https://www.qsl.net/ve7jpc/).
 
 These pages were created on a windows 95 computer using notepad and uploaded to the server using ftp.
